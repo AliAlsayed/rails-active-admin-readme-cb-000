@@ -6,6 +6,7 @@ ActiveAdmin.register Author do
   # Uncomment all parameters which should be permitted for assignment
   #
   permit_params :name, :genre
+  actions :all, except: [:destroy]
   #
   # or
   #
