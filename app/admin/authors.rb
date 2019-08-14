@@ -12,6 +12,7 @@ ActiveAdmin.register Author do
     inputs 'Author' do
       f.input :name
       f.input :genre
+    end
   end
   #
   # or
