@@ -3556,3 +3556,21 @@ Started GET "/assets/active_admin.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e46
 Cannot render console from 5.32.97.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Started GET "/assets/active_admin/print.self-2b7ea1cf904a9766858c8a412ba423735acea62c5873a08266aa4389d02d3720.css?body=1" for 5.32.97.110 at 2019-08-14 09:13:19 +0000
 Cannot render console from 5.32.97.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started POST "/admin/login" for 5.32.97.110 at 2019-08-14 09:13:53 +0000
+Cannot render console from 5.32.97.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hOqFm3DiFr8gDYD2QB4CpsRYdorFYHEBESlu+KwGG0QV9p0pVGtBcuexWkKQeD4JDCpxsTRW2gjNWIEvPRGNCw==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Redirected to http://178.128.194.189:38712/admin
+Completed 302 Found in 94ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/admin" for 5.32.97.110 at 2019-08-14 09:13:53 +0000
+Cannot render console from 5.32.97.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.6.1/bundler/gems/activeadmin-f0e88ca009e9/app/views/active_admin/page/index.html.arb
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/bundler/gems/activeadmin-f0e88ca009e9/app/views/active_admin/page/index.html.arb (102.9ms)
+Completed 200 OK in 109ms (Views: 104.7ms | ActiveRecord: 0.8ms)
+
+
