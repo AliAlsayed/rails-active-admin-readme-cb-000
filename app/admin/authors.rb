@@ -13,6 +13,7 @@ ActiveAdmin.register Author do
       f.input :name
       f.input :genre
     end
+    f.semantic_errors
   end
   #
   # or
