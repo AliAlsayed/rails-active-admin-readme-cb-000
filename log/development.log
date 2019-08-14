@@ -3707,3 +3707,4 @@ Processing by Admin::AuthorsController#index as HTML
 Completed 200 OK in 189ms (Views: 185.2ms | ActiveRecord: 1.1ms)
 
 
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /home/AliAlsayed/rails-active-admin-readme-cb-000/app/models/application_record.rb:1)
