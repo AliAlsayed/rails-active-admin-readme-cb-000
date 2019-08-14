@@ -14,6 +14,7 @@ ActiveAdmin.register Author do
       f.input :genre
     end
     f.semantic_errors
+    f.actions
   end
   #
   # or
