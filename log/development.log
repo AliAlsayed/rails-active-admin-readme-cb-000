@@ -3241,3 +3241,4 @@ Processing by PostsController#index as HTML
   [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 3]]
   Rendered posts/index.html.erb within layouts/application (33.3ms)
 Completed 200 OK in 260ms (Views: 253.3ms | ActiveRecord: 1.5ms)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /home/AliAlsayed/rails-active-admin-readme-cb-000/app/models/user.rb:1)
