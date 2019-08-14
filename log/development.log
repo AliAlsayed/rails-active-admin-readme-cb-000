@@ -3692,3 +3692,8 @@ Processing by Admin::AuthorsController#index as */*
 Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms)
 
 
+Started GET "/admin/authors" for 5.32.97.110 at 2019-08-14 09:24:15 +0000
+Cannot render console from 5.32.97.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::AuthorsController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.6.1/bundler/gems/activeadmin-f0e88ca009e9/app/views/active_admin/resource/index.html.arb
