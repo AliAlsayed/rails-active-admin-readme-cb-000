@@ -3599,3 +3599,4 @@ Processing by Admin::AdminUsersController#edit as HTML
 Completed 200 OK in 121ms (Views: 117.1ms | ActiveRecord: 0.5ms)
 
 
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /home/AliAlsayed/rails-active-admin-readme-cb-000/app/models/application_record.rb:1)
