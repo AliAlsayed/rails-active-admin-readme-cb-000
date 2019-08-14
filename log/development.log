@@ -3243,3 +3243,4 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 260ms (Views: 253.3ms | ActiveRecord: 1.5ms)
 DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /home/AliAlsayed/rails-active-admin-readme-cb-000/app/models/user.rb:1)
 DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /home/AliAlsayed/rails-active-admin-readme-cb-000/app/models/user.rb:1)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /home/AliAlsayed/rails-active-admin-readme-cb-000/app/models/user.rb:1)
