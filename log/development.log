@@ -3719,3 +3719,8 @@ Processing by Admin::AuthorsController#index as HTML
   [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "authors"[0m
   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "authors" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
   [1m[36mAuthor Load (0.3ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" ORDER BY "authors"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/bundler/gems/activeadmin-f0e88ca009e9/app/views/active_admin/resource/index.html.arb (806.8ms)
+Completed 200 OK in 844ms (Views: 811.7ms | ActiveRecord: 3.1ms)
+
+
