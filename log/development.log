@@ -3359,3 +3359,4 @@ Migrating to CreateActiveAdminComments (20190814090905)
             FROM sqlite_temp_master
             WHERE name='index_users_on_email' AND type='index'
 [0m
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /home/AliAlsayed/rails-active-admin-readme-cb-000/app/models/application_record.rb:1)
